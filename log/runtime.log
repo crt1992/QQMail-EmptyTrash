@@ -1,0 +1,568 @@
+[2021-03-18 12:38:03,424.424] login_test.py -> setup_class:24 [INFO] : Initialize
+[2021-03-18 12:38:25,432.432] login_test.py -> test_login:41 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 12:38:25,433.433] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 12:38:25,540.540] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 12:38:26,161.161] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 12:38:27,874.874] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 12:38:41,009.9] login_test.py -> teardown_class:36 [INFO] : End of test! TearDown!
+[2021-03-18 13:05:00,737.737] login_test.py -> setup_class:24 [INFO] : Initialize
+[2021-03-18 13:05:19,622.622] login_test.py -> test_login:41 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 13:05:19,622.622] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 13:05:19,714.714] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 13:05:20,362.362] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 13:05:22,124.124] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 13:05:33,892.892] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 13:05:45,624.624] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 13:05:58,693.693] login_test.py -> teardown_class:36 [INFO] : End of test! TearDown!
+[2021-03-18 13:48:44,032.32] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 13:49:02,986.986] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 13:49:02,987.987] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 13:49:03,074.74] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 13:49:03,713.713] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 13:49:05,469.469] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 13:49:18,607.607] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 14:43:26,348.348] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 14:43:45,702.702] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 14:43:45,702.702] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 14:43:45,803.803] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 14:43:46,474.474] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 14:43:48,239.239] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 14:44:01,400.400] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 14:56:56,546.546] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 14:57:15,768.768] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 14:57:15,768.768] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 14:57:15,875.875] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 14:57:16,555.555] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 14:57:18,340.340] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 14:57:31,490.490] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:17:28,522.522] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:17:47,793.793] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:17:47,793.793] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:17:47,894.894] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:17:48,545.545] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:17:50,275.275] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:18:03,452.452] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:22:04,452.452] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:22:23,412.412] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:22:23,412.412] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:22:23,501.501] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:22:24,152.152] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:22:25,903.903] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:22:31,449.449] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:25:01,969.969] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:25:06,361.361] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:25:06,361.361] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:25:06,469.469] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:25:07,096.96] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:25:08,789.789] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:25:21,931.931] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:32:34,667.667] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:32:53,696.696] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:32:53,697.697] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:32:53,784.784] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:32:54,408.408] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:32:56,124.124] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:33:07,885.885] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 15:33:21,019.19] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:34:24,556.556] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:34:43,572.572] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:34:43,572.572] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:34:43,653.653] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:34:44,291.291] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:34:46,033.33] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:34:59,162.162] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:35:28,685.685] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:35:47,803.803] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:35:47,804.804] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:35:47,887.887] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:35:48,547.547] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:35:50,299.299] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:36:03,429.429] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:37:19,098.98] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:37:38,205.205] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:37:38,206.206] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:37:38,301.301] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:37:38,923.923] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:37:40,658.658] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:37:52,434.434] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 15:38:04,163.163] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 15:38:15,880.880] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->4 time <case:test_login>
+[2021-03-18 15:38:27,597.597] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->5 time <case:test_login>
+[2021-03-18 15:38:30,194.194] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:40:44,781.781] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:41:03,729.729] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:41:03,730.730] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:41:03,823.823] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:41:04,428.428] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:41:06,127.127] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:41:17,906.906] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 15:41:30,996.996] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 15:54:24,681.681] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 15:54:43,913.913] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 15:54:43,914.914] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 15:54:44,008.8] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 15:54:44,665.665] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 15:54:46,418.418] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 15:54:58,203.203] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 15:55:01,033.33] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 16:01:15,702.702] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 16:01:34,900.900] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 16:01:34,901.901] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 16:01:35,006.6] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 16:01:35,619.619] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 16:01:37,320.320] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 16:01:50,473.473] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 16:09:02,917.917] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 16:09:22,011.11] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 16:09:22,012.12] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 16:09:22,116.116] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 16:09:22,749.749] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 16:09:24,463.463] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 16:09:37,605.605] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 16:22:19,685.685] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 16:22:24,122.122] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 16:22:24,123.123] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 16:22:24,250.250] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 16:22:24,887.887] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 16:22:26,573.573] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 16:22:39,964.964] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 17:08:40,562.562] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 17:09:00,030.30] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 17:09:00,031.31] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 17:09:00,127.127] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 17:09:00,735.735] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 17:09:02,470.470] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 17:09:14,260.260] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 17:09:27,351.351] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 17:51:28,591.591] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 17:51:48,230.230] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 17:51:48,231.231] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 17:51:48,344.344] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 17:51:48,951.951] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 17:51:50,644.644] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 17:52:04,543.543] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 17:54:16,260.260] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 17:54:20,631.631] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 17:54:20,631.631] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 17:54:20,745.745] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 17:54:21,552.552] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 17:54:29,448.448] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 17:54:47,762.762] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 18:02:31,440.440] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 18:02:36,007.7] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 18:02:36,008.8] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 18:02:36,177.177] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 18:02:36,990.990] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 18:02:38,839.839] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 18:02:49,931.931] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 18:03:35,569.569] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 18:03:54,678.678] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 18:03:54,678.678] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 18:03:54,773.773] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 18:03:55,432.432] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 18:03:57,093.93] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 18:04:10,280.280] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 18:26:22,040.40] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 18:26:41,009.9] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 18:26:41,010.10] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 18:26:41,108.108] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 18:26:41,721.721] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 18:26:43,434.434] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 18:26:55,193.193] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 18:27:06,908.908] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 18:27:20,005.5] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 18:44:20,341.341] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 18:44:39,605.605] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 18:44:39,606.606] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 18:44:39,704.704] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 18:44:40,305.305] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 18:44:42,023.23] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 18:44:55,157.157] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 18:47:40,941.941] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 18:48:00,016.16] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 18:48:00,016.16] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 18:48:00,113.113] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 18:48:00,733.733] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 18:48:02,457.457] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 18:48:14,246.246] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 18:48:25,961.961] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 18:48:37,678.678] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->4 time <case:test_login>
+[2021-03-18 18:48:49,408.408] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->5 time <case:test_login>
+[2021-03-18 18:49:02,531.531] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 19:05:42,590.590] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 19:06:01,946.946] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 19:06:01,946.946] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 19:06:02,051.51] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 19:06:02,658.658] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 19:06:04,401.401] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 19:06:17,550.550] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 19:07:32,125.125] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 19:07:51,369.369] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 19:07:51,369.369] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 19:07:51,465.465] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 19:07:52,064.64] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 19:07:53,777.777] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 19:08:05,559.559] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 19:08:18,626.626] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 19:10:11,346.346] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 19:10:30,645.645] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 19:10:30,646.646] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 19:10:30,759.759] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 19:10:31,377.377] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 19:10:33,055.55] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 19:10:56,593.593] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 19:13:53,527.527] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 19:14:13,030.30] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 19:14:13,030.30] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 19:14:13,125.125] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 19:14:13,750.750] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 19:14:15,456.456] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 19:14:28,580.580] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 19:59:24,568.568] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 19:59:49,567.567] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 19:59:49,567.567] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 19:59:49,653.653] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 19:59:50,309.309] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 19:59:52,092.92] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:00:03,858.858] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:00:15,574.574] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 20:00:28,657.657] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:05:22,492.492] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:05:41,765.765] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:05:41,765.765] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:05:41,863.863] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:05:42,499.499] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:05:44,203.203] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:05:57,324.324] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:15:34,590.590] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:16:15,416.416] login_test.py -> setup_class:35 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/TestCase/login_test.py", line 32, in setup_class
+    self.driver.get("https://mail.qq.com/")
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 20:16:15,419.419] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:16:15,420.420] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:16:15,462.462] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
+    log_in.send_username(self._username)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 13, in send_username
+    self.driver.get_username_element().send_keys(username)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 23, in get_username_element
+    self.__switch_to_login_frame__()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 12, in __switch_to_login_frame__
+    a = self.fe.find_element('login_frame')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 20:16:15,640.640] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:16:23,844.844] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:16:58,370.370] login_test.py -> setup_class:35 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/TestCase/login_test.py", line 32, in setup_class
+    self.driver.get("https://mail.qq.com/")
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 20:16:58,373.373] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:16:58,374.374] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:16:58,419.419] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
+    log_in.send_username(self._username)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 13, in send_username
+    self.driver.get_username_element().send_keys(username)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 23, in get_username_element
+    self.__switch_to_login_frame__()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 12, in __switch_to_login_frame__
+    a = self.fe.find_element('login_frame')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 20:16:58,571.571] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:17:45,092.92] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:18:04,353.353] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:18:04,353.353] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:18:04,456.456] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:18:05,163.163] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:18:06,899.899] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:18:18,688.688] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:18:31,760.760] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:26:21,267.267] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:26:40,653.653] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:26:40,653.653] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:26:40,745.745] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:26:41,384.384] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:26:43,142.142] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:26:56,329.329] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:29:38,594.594] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:29:58,830.830] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:29:58,831.831] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:29:58,934.934] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:29:59,535.535] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:30:01,255.255] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:30:14,411.411] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:33:13,598.598] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:33:32,812.812] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:33:32,813.813] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:33:32,910.910] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:33:33,576.576] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:33:35,340.340] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:33:47,103.103] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:33:57,275.275] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:35:25,706.706] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:35:44,612.612] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:35:44,613.613] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:35:44,706.706] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:35:45,306.306] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:35:47,011.11] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:36:00,174.174] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:37:09,326.326] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:37:13,697.697] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:37:13,697.697] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:37:13,788.788] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:37:14,433.433] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:37:16,181.181] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:37:29,356.356] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:39:13,509.509] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:39:32,556.556] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:39:32,556.556] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:39:32,643.643] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:39:33,312.312] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:39:35,041.41] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:39:46,803.803] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:39:58,517.517] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 20:40:10,277.277] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->4 time <case:test_login>
+[2021-03-18 20:40:22,014.14] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->5 time <case:test_login>
+[2021-03-18 20:40:24,027.27] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+  File "../business/login_business.py", line 33, in login_in
+    screenshot().save_rt_screenshot(driver=self.driver, file_name='登陆成功.png')
+  File "../util/save_screenshot.py", line 28, in save_rt_screenshot
+    driver.save_screenshot(file_path)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 20:40:24,082.82] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:42:58,068.68] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:43:16,965.965] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:43:16,966.966] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:43:17,052.52] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:43:17,670.670] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:43:19,375.375] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:43:31,139.139] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:43:33,772.772] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:44:54,099.99] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:45:13,122.122] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:45:13,123.123] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:45:13,224.224] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:45:13,845.845] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:45:15,541.541] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:45:28,729.729] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:48:44,933.933] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:49:04,070.70] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:49:04,071.71] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:49:04,162.162] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:49:04,832.832] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:49:06,599.599] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:49:19,794.794] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:50:47,205.205] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:51:06,445.445] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:51:06,446.446] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:51:06,576.576] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:51:07,274.274] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:51:09,030.30] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:51:22,217.217] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:53:36,492.492] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:53:55,404.404] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:53:55,404.404] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:53:55,510.510] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:53:56,127.127] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:53:57,817.817] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:54:06,372.372] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:55:26,612.612] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:55:31,358.358] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:55:31,359.359] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:55:31,448.448] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:55:32,102.102] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:55:33,867.867] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:55:45,652.652] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:55:48,247.247] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 20:58:12,635.635] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 20:58:31,637.637] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 20:58:31,638.638] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 20:58:31,739.739] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 20:58:32,389.389] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 20:58:34,096.96] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 20:58:45,889.889] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 20:58:48,499.499] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:04:55,710.710] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:05:00,107.107] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:05:00,107.107] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:05:00,211.211] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:05:00,826.826] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:05:02,504.504] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:05:14,295.295] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 21:05:26,076.76] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 21:05:28,633.633] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:13:32,067.67] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:13:51,955.955] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:13:51,956.956] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:13:52,053.53] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:13:52,673.673] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:13:54,397.397] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:14:06,190.190] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 21:14:12,251.251] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:15:30,158.158] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:15:49,250.250] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:15:49,250.250] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:15:49,349.349] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:15:49,971.971] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:15:51,721.721] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:16:04,960.960] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:16:53,998.998] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:17:13,107.107] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:17:13,108.108] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:17:13,201.201] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:17:13,860.860] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:17:15,641.641] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:17:27,436.436] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 21:17:29,448.448] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+  File "../business/login_business.py", line 33, in login_in
+    screenshot().save_rt_screenshot(driver=self.driver, file_name='登陆成功.png')
+  File "../util/save_screenshot.py", line 28, in save_rt_screenshot
+    driver.save_screenshot(file_path)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 21:17:29,503.503] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:20:53,540.540] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:21:12,637.637] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:21:12,638.638] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:21:12,751.751] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:21:13,412.412] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:21:15,210.210] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:21:26,993.993] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 21:21:38,707.707] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 21:21:51,773.773] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:22:40,606.606] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:22:59,822.822] login_test.py -> test_login:45 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:22:59,823.823] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:22:59,928.928] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:23:00,569.569] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:23:02,338.338] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:23:14,128.128] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 21:23:16,140.140] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+  File "../business/login_business.py", line 33, in login_in
+    screenshot().save_rt_screenshot(driver=self.driver, file_name='登陆成功.png')
+  File "../util/save_screenshot.py", line 28, in save_rt_screenshot
+    driver.save_screenshot(file_path)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+
+[2021-03-18 21:23:16,198.198] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 21:32:09,174.174] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 21:32:28,629.629] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 21:32:28,630.630] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 21:32:28,735.735] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 21:32:29,371.371] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 21:32:31,153.153] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 21:32:44,309.309] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 22:37:25,151.151] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 22:37:29,505.505] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 22:37:29,506.506] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 22:37:29,638.638] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 22:37:30,338.338] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 22:37:32,076.76] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 22:37:43,855.855] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-18 22:37:55,616.616] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-18 22:38:08,710.710] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 23:09:08,665.665] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 23:09:28,074.74] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 23:09:28,075.75] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 23:09:28,166.166] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 23:09:28,819.819] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 23:09:30,541.541] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 23:09:43,637.637] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-18 23:50:58,299.299] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-18 23:51:17,521.521] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-18 23:51:17,522.522] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-18 23:51:17,618.618] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-18 23:51:18,294.294] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-18 23:51:20,035.35] login_handler.py -> slide_verify_btn:27 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-18 23:51:33,130.130] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!

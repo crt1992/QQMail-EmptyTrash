@@ -1,0 +1,841 @@
+[2021-03-16 15:22:07,084.84] del_all_deleted_mail.py -> setup_class:17 [INFO] : Initialize
+[2021-03-16 15:22:26,061.61] login_business.py -> login_in:23 [INFO] : input username <case:setup_class>
+[2021-03-16 15:22:26,140.140] login_business.py -> login_in:25 [INFO] : input password <case:setup_class>
+[2021-03-16 15:22:26,780.780] login_business.py -> login_in:28 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:22:28,507.507] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:22:40,265.265] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 15:22:53,361.361] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:22:55,671.671] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:23:04,212.212] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:23:07,353.353] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:23:11,818.818] del_all_deleted_mail.py -> teardown_class:33 [INFO] : End of test! TearDown!
+[2021-03-16 15:29:53,749.749] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:30:12,790.790] login_business.py -> login_in:23 [INFO] : input username <case:setup_class>
+[2021-03-16 15:30:12,871.871] login_business.py -> login_in:25 [INFO] : input password <case:setup_class>
+[2021-03-16 15:30:13,467.467] login_business.py -> login_in:28 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:30:15,174.174] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:30:28,347.347] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:30:30,671.671] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:30:39,232.232] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:30:42,381.381] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:30:46,767.767] del_all_deleted_mail.py -> test_del_deleted_mail:50 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/TestCase/del_all_deleted_mail.py", line 48, in test_del_deleted_mail
+    assert mb.get_deleted_num() == 0
+AssertionError: assert 6 == 0
+  +6
+  -0
+
+[2021-03-16 15:30:46,767.767] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 15:32:03,705.705] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:32:22,708.708] login_business.py -> login_in:23 [INFO] : input username <case:setup_class>
+[2021-03-16 15:32:22,789.789] login_business.py -> login_in:25 [INFO] : input password <case:setup_class>
+[2021-03-16 15:32:23,428.428] login_business.py -> login_in:28 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:32:25,159.159] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:32:38,265.265] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:32:40,555.555] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:32:49,085.85] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:32:52,218.218] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:32:56,626.626] del_all_deleted_mail.py -> test_del_deleted_mail:50 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/TestCase/del_all_deleted_mail.py", line 48, in test_del_deleted_mail
+    assert mb.get_deleted_num() == 0
+AssertionError: assert 6 == 0
+  +6
+  -0
+
+[2021-03-16 15:32:56,627.627] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 15:37:03,813.813] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:37:22,918.918] login_business.py -> login_in:23 [INFO] : input username <case:setup_class>
+[2021-03-16 15:37:22,996.996] login_business.py -> login_in:25 [INFO] : input password <case:setup_class>
+[2021-03-16 15:37:23,609.609] login_business.py -> login_in:28 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:37:25,263.263] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:37:37,024.24] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 15:37:48,738.738] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 15:38:00,455.455] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->4 time <case:setup_class>
+[2021-03-16 15:38:12,173.173] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->5 time <case:setup_class>
+[2021-03-16 15:38:25,279.279] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:38:27,577.577] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:38:36,107.107] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:38:39,244.244] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:38:43,708.708] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 15:48:37,243.243] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:48:56,183.183] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 15:48:56,262.262] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 15:48:56,857.857] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:48:58,533.533] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:49:11,649.649] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:49:13,967.967] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:49:22,526.526] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:49:25,684.684] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:49:30,091.91] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 15:51:05,107.107] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:51:24,100.100] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 15:51:24,180.180] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 15:51:24,776.776] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:51:26,458.458] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:51:38,237.237] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 15:51:49,949.949] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 15:52:01,680.680] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->4 time <case:setup_class>
+[2021-03-16 15:52:14,761.761] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:52:17,069.69] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:52:25,592.592] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:52:28,697.697] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:52:33,062.62] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : 0
+[2021-03-16 15:52:33,063.63] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 15:53:48,330.330] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 15:54:07,338.338] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 15:54:07,416.416] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 15:54:08,008.8] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 15:54:09,685.685] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 15:54:22,816.816] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 15:54:25,115.115] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 15:54:33,656.656] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 15:54:36,813.813] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 15:54:41,224.224] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : 0
+[2021-03-16 15:54:41,246.246] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 15:54:41,247.247] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:02:36,317.317] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:02:56,361.361] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:02:56,442.442] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:02:57,080.80] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:02:58,811.811] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:03:11,945.945] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:03:14,249.249] main_business.py -> qc_empyt_all_deleted_mail:55 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:03:22,809.809] main_business.py -> qc_empyt_all_deleted_mail:62 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:03:25,959.959] main_business.py -> qc_empyt_all_deleted_mail:71 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:03:30,431.431] main_business.py -> qc_empyt_all_deleted_mail:80 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 77, in qc_empyt_all_deleted_mail
+    log.logging(msg=mail_num+'--------', level='DEBUG')
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+[2021-03-16 16:03:30,431.431] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 16:03:30,454.454] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:03:30,455.455] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:04:59,185.185] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:05:18,508.508] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:05:18,587.587] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:05:19,214.214] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:05:20,904.904] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:05:32,668.668] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 16:05:35,263.263] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:05:35,276.276] main_business.py -> qc_empyt_all_deleted_mail:80 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 51, in qc_empyt_all_deleted_mail
+    main_op.click_deleted()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 29, in click_deleted
+    self.driver.get_deleted_btn_element().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/qqmail_main_page.py", line 25, in get_deleted_btn_element
+    return self.fe.find_element('deleted_btn')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='folder_5']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 16:05:35,277.277] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 16:05:35,358.358] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:08:51,491.491] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:09:10,514.514] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:09:10,595.595] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:09:11,184.184] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:09:12,862.862] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:09:25,981.981] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:09:29,325.325] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:09:37,877.877] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:09:41,007.7] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:09:45,395.395] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 16:09:45,396.396] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : 0
+[2021-03-16 16:09:45,416.416] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:09:45,489.489] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:20:24,275.275] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:20:44,230.230] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:20:44,311.311] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:20:44,893.893] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:20:46,573.573] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:20:58,353.353] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 16:21:10,065.65] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 16:21:23,146.146] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:21:26,461.461] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:21:35,040.40] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:21:38,189.189] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:21:42,637.637] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 16:21:42,657.657] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:21:42,728.728] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:28:05,255.255] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:28:24,267.267] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:28:24,344.344] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:28:24,984.984] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:28:26,704.704] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:28:39,819.819] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:28:43,150.150] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:28:51,696.696] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:28:54,846.846] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:28:59,258.258] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 16:28:59,258.258] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 16:28:59,280.280] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:28:59,294.294] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 16:28:59,348.348] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:37:57,930.930] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:38:16,944.944] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:38:17,025.25] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:38:17,638.638] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:38:19,341.341] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:38:32,448.448] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:38:35,757.757] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:38:44,283.283] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:38:47,408.408] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:38:51,827.827] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 16:38:51,828.828] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 16:38:51,843.843] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:38:51,857.857] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 16:38:51,911.911] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:48:03,975.975] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:48:23,241.241] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:48:23,317.317] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:48:23,906.906] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:48:25,580.580] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:48:38,699.699] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:48:42,000.0] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:48:50,527.527] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:48:53,645.645] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:48:58,030.30] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 16:48:58,030.30] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 16:48:58,050.50] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:48:58,066.66] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 16:48:58,122.122] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 16:51:07,427.427] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 16:51:26,403.403] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 16:51:26,485.485] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 16:51:27,085.85] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 16:51:28,754.754] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 16:51:40,522.522] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 16:51:46,497.497] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 16:51:52,771.771] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 16:52:01,454.454] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 16:52:04,307.307] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 16:52:08,242.242] main_handler.py -> get_mail_count:68 [DEBUG] : []
+[2021-03-16 16:52:08,243.243] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 16:52:08,243.243] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 16:52:08,269.269] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="008a49c4-2258-4132-822b-4249d6cdfdf6")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="d96f97f9-cc85-4b1e-b728-5a3800edb002")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f6b9424f-fdb3-48d8-8d2c-edf910529c9d")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="4eb53176-a10b-47a3-8ce7-b8fc25f9cc3b")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="6475e089-2c2e-4403-9395-764c742e89fd")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f9980786-bf4e-4c8c-8f85-6475f7b5aae5")>]
+[2021-03-16 16:52:08,270.270] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 16:52:08,289.289] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="008a49c4-2258-4132-822b-4249d6cdfdf6")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="d96f97f9-cc85-4b1e-b728-5a3800edb002")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f6b9424f-fdb3-48d8-8d2c-edf910529c9d")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="4eb53176-a10b-47a3-8ce7-b8fc25f9cc3b")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="6475e089-2c2e-4403-9395-764c742e89fd")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f9980786-bf4e-4c8c-8f85-6475f7b5aae5")>]
+[2021-03-16 16:52:08,289.289] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 16:52:08,307.307] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="008a49c4-2258-4132-822b-4249d6cdfdf6")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="d96f97f9-cc85-4b1e-b728-5a3800edb002")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f6b9424f-fdb3-48d8-8d2c-edf910529c9d")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="4eb53176-a10b-47a3-8ce7-b8fc25f9cc3b")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="6475e089-2c2e-4403-9395-764c742e89fd")>, <selenium.webdriver.remote.webelement.WebElement (session="102a45fdeb87f78de61a9c47ecfdb08c", element="f9980786-bf4e-4c8c-8f85-6475f7b5aae5")>]
+[2021-03-16 16:52:08,355.355] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:01:14,350.350] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:01:33,473.473] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:01:33,553.553] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:01:34,154.154] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:01:35,852.852] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:01:48,983.983] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:01:52,337.337] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:02:00,907.907] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:02:04,047.47] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:02:08,473.473] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 77, in qc_empyt_all_deleted_mail
+    main_op.click_quick_delete_btn()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 36, in click_quick_delete_btn
+    self.common.get_qc_del_btn().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 26, in get_qc_del_btn
+    return self.fe.find_element('quick_del_main_btn')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='quick_del']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 17:02:08,474.474] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:02:08,497.497] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="9ceac11c-aadc-4639-8617-1593d1bed15b")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="a19b131b-5429-486a-8e0d-5b82ef25b8a5")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="cd5a9065-4f97-445a-b41b-f39ec788975a")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="2156eb98-5533-457c-9362-f0a4610bc23e")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="8d90df1b-6459-4e40-bb48-13b4cfcf8369")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="ca3842a8-0c75-447a-bf2d-228311d8bb65")>]
+[2021-03-16 17:02:08,497.497] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:02:08,512.512] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="9ceac11c-aadc-4639-8617-1593d1bed15b")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="a19b131b-5429-486a-8e0d-5b82ef25b8a5")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="cd5a9065-4f97-445a-b41b-f39ec788975a")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="2156eb98-5533-457c-9362-f0a4610bc23e")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="8d90df1b-6459-4e40-bb48-13b4cfcf8369")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="ca3842a8-0c75-447a-bf2d-228311d8bb65")>]
+[2021-03-16 17:02:08,513.513] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=False <case:test_del_deleted_mail>
+[2021-03-16 17:02:08,527.527] main_handler.py -> get_mail_count:68 [DEBUG] : [<selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="9ceac11c-aadc-4639-8617-1593d1bed15b")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="a19b131b-5429-486a-8e0d-5b82ef25b8a5")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="cd5a9065-4f97-445a-b41b-f39ec788975a")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="2156eb98-5533-457c-9362-f0a4610bc23e")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="8d90df1b-6459-4e40-bb48-13b4cfcf8369")>, <selenium.webdriver.remote.webelement.WebElement (session="18a86209991b85c3f5d083c64364a9d4", element="ca3842a8-0c75-447a-bf2d-228311d8bb65")>]
+[2021-03-16 17:02:08,569.569] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:14:28,518.518] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:14:47,520.520] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:14:47,605.605] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:14:48,203.203] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:14:49,901.901] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:15:03,046.46] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:15:06,363.363] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:15:14,899.899] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:15:18,040.40] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:15:22,492.492] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 17:15:22,735.735] main_handler.py -> get_mail_count:68 [DEBUG] : []
+[2021-03-16 17:15:22,735.735] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 0
+[2021-03-16 17:15:22,756.756] main_handler.py -> get_mail_count:68 [DEBUG] : []
+[2021-03-16 17:15:22,756.756] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 0=True <case:test_del_deleted_mail>
+[2021-03-16 17:15:22,774.774] main_handler.py -> get_mail_count:68 [DEBUG] : []
+[2021-03-16 17:15:22,818.818] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:18:57,560.560] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:19:16,459.459] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:19:16,541.541] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:19:17,135.135] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:19:18,793.793] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:19:30,547.547] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 17:19:43,597.597] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:19:46,920.920] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:19:55,459.459] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:19:58,594.594] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:20:03,027.27] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 78, in qc_empyt_all_deleted_mail
+    log.logging(msg=str(mail_num)+'--------', level='DEBUG')
+NameError: name 'mail_num' is not defined
+
+[2021-03-16 17:20:03,027.27] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:20:03,048.48] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:20:03,063.63] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=False <case:test_del_deleted_mail>
+[2021-03-16 17:20:03,120.120] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:25:42,238.238] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:26:01,133.133] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:26:01,214.214] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:26:01,803.803] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:26:03,484.484] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:26:15,261.261] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 17:26:26,974.974] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 17:26:38,692.692] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->4 time <case:setup_class>
+[2021-03-16 17:26:51,762.762] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:26:55,070.70] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:27:03,620.620] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:27:06,766.766] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:27:11,179.179] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 17:27:11,179.179] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 17:27:11,201.201] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:27:11,217.217] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 17:27:11,270.270] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:35:40,558.558] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:35:59,711.711] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:35:59,809.809] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:36:00,395.395] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:36:02,047.47] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:36:14,906.906] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:36:17,981.981] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:36:26,278.278] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:36:29,155.155] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:36:33,039.39] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 17:36:33,039.39] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 17:36:33,062.62] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:36:33,081.81] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 17:36:33,147.147] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:39:36,762.762] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:39:55,482.482] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:39:55,577.577] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:39:56,064.64] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:39:57,640.640] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:40:10,521.521] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:40:13,593.593] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:40:21,936.936] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:40:21,946.946] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 64, in qc_empyt_all_deleted_mail
+    main_op.click_quick_delete_btn()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 36, in click_quick_delete_btn
+    self.common.get_qc_del_btn().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 25, in get_qc_del_btn
+    self.__switch_to_frame()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 12, in __switch_to_frame
+    a = self.fe.find_element('main_frame')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainFrame']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 17:40:21,946.946] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:40:21,967.967] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:40:21,988.988] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=False <case:test_del_deleted_mail>
+[2021-03-16 17:40:22,060.60] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:42:39,446.446] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:42:44,178.178] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:42:44,260.260] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:42:45,023.23] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:42:46,804.804] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:42:56,295.295] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:43:01,321.321] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:43:09,731.731] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:43:09,741.741] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 64, in qc_empyt_all_deleted_mail
+    main_op.click_quick_delete_btn()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 36, in click_quick_delete_btn
+    self.common.get_qc_del_btn().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 25, in get_qc_del_btn
+    self.__switch_to_frame()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 12, in __switch_to_frame
+    a = self.fe.find_element('main_frame')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainFrame']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 17:43:09,742.742] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:43:09,835.835] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:51:54,736.736] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:52:13,513.513] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:52:13,619.619] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:52:14,325.325] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:52:15,992.992] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:52:21,345.345] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:52:27,322.322] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:52:35,760.760] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:52:38,748.748] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:52:42,857.857] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 17:52:42,857.857] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 17:52:42,878.878] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:52:42,956.956] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:55:37,399.399] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:55:56,158.158] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:55:56,253.253] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:55:56,767.767] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:55:58,382.382] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:56:04,103.103] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:56:05,118.118] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 52, in qc_empyt_all_deleted_mail
+    main_op.click_deleted()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 30, in click_deleted
+    self.driver.get_deleted_btn_element().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/qqmail_main_page.py", line 25, in get_deleted_btn_element
+    return self.fe.find_element('deleted_btn')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='folder_5']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 17:56:05,119.119] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:56:05,218.218] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 17:58:24,352.352] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 17:58:43,356.356] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 17:58:43,437.437] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 17:58:44,040.40] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 17:58:45,698.698] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 17:58:58,843.843] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 17:59:02,162.162] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 17:59:10,725.725] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 17:59:13,856.856] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 17:59:13,911.911] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 82, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="[@id='mainFrame']"]"}
+  (Session info: chrome=89.0.4389.82)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 85, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="[@id='mainFrame']"]"}
+  (Session info: chrome=89.0.4389.82)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 73, in qc_empyt_all_deleted_mail
+    main_op.click_cancel_btn()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 65, in click_cancel_btn
+    self.pure_dirver.switch_to.frame("[@id='mainFrame']")
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 87, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: [@id='mainFrame']
+
+
+[2021-03-16 17:59:13,912.912] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 17:59:13,937.937] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 17:59:14,013.13] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:03:10,983.983] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:03:30,192.192] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:03:30,271.271] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:03:30,906.906] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:03:32,631.631] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:03:44,411.411] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 18:03:57,488.488] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:04:00,823.823] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:04:00,839.839] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 82, in frame
+    frame_reference = self._driver.find_element(By.ID, frame_reference)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="//*[@id='mainFrame']"]"}
+  (Session info: chrome=89.0.4389.82)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 85, in frame
+    frame_reference = self._driver.find_element(By.NAME, frame_reference)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="//*[@id='mainFrame']"]"}
+  (Session info: chrome=89.0.4389.82)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 57, in qc_empyt_all_deleted_mail
+    main_op.choose_mail_onebyone()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 40, in choose_mail_onebyone
+    for i in self.common.choose_mail_onebyeone():
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 55, in choose_mail_onebyeone
+    self.fe.switch_to_frame("//*[@id='mainFrame']")
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 27, in switch_to_frame
+    return self.driver.switch_to.frame(key)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/switch_to.py", line 87, in frame
+    raise NoSuchFrameException(frame_reference)
+selenium.common.exceptions.NoSuchFrameException: Message: //*[@id='mainFrame']
+
+
+[2021-03-16 18:04:00,839.839] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 18:04:00,930.930] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:06:38,695.695] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:06:57,689.689] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:06:57,780.780] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:06:58,379.379] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:07:00,057.57] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:07:11,836.836] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 18:07:24,910.910] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:07:28,230.230] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:07:36,807.807] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:07:36,820.820] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 64, in qc_empyt_all_deleted_mail
+    main_op.click_quick_delete_btn()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 36, in click_quick_delete_btn
+    self.common.get_qc_del_btn().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 25, in get_qc_del_btn
+    self.__switch_to_frame()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/common_page.py", line 12, in __switch_to_frame
+    a = self.fe.find_element('main_frame')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainFrame']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 18:07:36,821.821] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 18:07:36,907.907] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:09:11,855.855] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:09:30,847.847] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:09:30,928.928] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:09:31,545.545] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:09:33,244.244] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:09:46,377.377] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:09:49,713.713] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:09:58,287.287] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:10:01,443.443] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:10:05,897.897] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 18:10:05,898.898] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:10:05,969.969] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:14:20,484.484] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:14:39,443.443] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:14:39,523.523] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:14:40,169.169] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:14:41,902.902] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:14:55,047.47] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:14:58,369.369] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:15:06,917.917] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:15:10,051.51] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:15:14,518.518] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 18:15:14,518.518] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:15:14,594.594] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:21:29,493.493] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:21:48,502.502] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:21:48,588.588] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:21:49,200.200] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:21:50,933.933] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:22:04,078.78] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:22:07,401.401] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:22:15,922.922] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:22:19,058.58] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:22:23,457.457] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 18:22:23,458.458] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:22:23,480.480] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 18:22:23,556.556] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:29:45,569.569] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:30:04,599.599] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:30:04,679.679] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:30:05,321.321] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:30:07,011.11] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:30:18,786.786] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 18:30:30,499.499] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 18:30:43,568.568] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:30:46,895.895] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:30:55,461.461] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:30:58,618.618] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:31:03,044.44] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 18:31:03,044.44] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:31:03,061.61] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 18:31:03,135.135] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:32:43,630.630] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:33:02,577.577] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:33:02,662.662] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:33:03,313.313] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:33:05,018.18] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:33:18,162.162] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:33:21,482.482] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:33:30,049.49] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:33:33,205.205] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:33:37,641.641] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 0--------
+[2021-03-16 18:33:37,641.641] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:33:37,646.646] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 0
+[2021-03-16 18:33:37,650.650] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 0=True <case:test_del_deleted_mail>
+[2021-03-16 18:33:37,694.694] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:37:44,785.785] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:38:03,810.810] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:38:03,888.888] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:38:04,531.531] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:38:06,263.263] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:38:19,406.406] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:38:22,746.746] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:38:31,288.288] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:38:34,438.438] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:38:38,860.860] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 18:38:38,861.861] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : True
+[2021-03-16 18:38:38,865.865] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 18:38:38,868.868] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=True <case:test_del_deleted_mail>
+[2021-03-16 18:38:38,915.915] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:42:10,255.255] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:42:29,331.331] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:42:29,414.414] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:42:30,001.1] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:42:31,714.714] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:42:44,850.850] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:42:48,172.172] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:42:56,724.724] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:42:59,863.863] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:43:04,293.293] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 18:43:04,322.322] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : 6
+[2021-03-16 18:43:04,326.326] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 0
+[2021-03-16 18:43:04,332.332] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 0=6 <case:test_del_deleted_mail>
+[2021-03-16 18:43:04,382.382] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:48:37,024.24] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:48:55,968.968] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:48:56,051.51] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:48:56,633.633] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:48:58,301.301] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:49:10,077.77] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 18:49:21,794.794] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:setup_class>
+[2021-03-16 18:49:33,515.515] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->4 time <case:setup_class>
+[2021-03-16 18:49:36,275.275] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:49:37,293.293] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 52, in qc_empyt_all_deleted_mail
+    main_op.click_deleted()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 31, in click_deleted
+    self.driver.get_deleted_btn_element().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/qqmail_main_page.py", line 30, in get_deleted_btn_element
+    return self.fe.find_element('deleted_btn')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='folder_5']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 18:49:37,294.294] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 18:49:37,384.384] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:53:12,721.721] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:53:16,865.865] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:53:16,983.983] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:53:17,587.587] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:53:19,219.219] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:53:30,996.996] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:setup_class>
+[2021-03-16 18:53:33,548.548] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:53:34,564.564] main_business.py -> qc_empyt_all_deleted_mail:82 [ERROR] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/main_business.py", line 52, in qc_empyt_all_deleted_mail
+    main_op.click_deleted()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/main_handler.py", line 31, in click_deleted
+    self.driver.get_deleted_btn_element().click()
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/qqmail_main_page.py", line 30, in get_deleted_btn_element
+    return self.fe.find_element('deleted_btn')
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
+    return self.driver.find_element_by_xpath(data[1])
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='folder_5']"}
+  (Session info: chrome=89.0.4389.82)
+
+
+[2021-03-16 18:53:34,565.565] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : False
+[2021-03-16 18:53:34,652.652] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:53:49,723.723] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:54:08,697.697] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:54:08,775.775] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:54:09,369.369] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:54:11,062.62] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:54:24,187.187] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:54:27,512.512] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:54:36,063.63] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:54:39,211.211] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:54:43,624.624] main_business.py -> qc_empyt_all_deleted_mail:78 [DEBUG] : 6--------
+[2021-03-16 18:54:43,654.654] del_all_deleted_mail.py -> test_del_deleted_mail:46 [DEBUG] : 6
+[2021-03-16 18:54:43,902.902] del_all_deleted_mail.py -> test_del_deleted_mail:47 [DEBUG] : 6
+[2021-03-16 18:54:43,908.908] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=6 <case:test_del_deleted_mail>
+[2021-03-16 18:54:43,914.914] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 18:57:25,582.582] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 18:57:44,510.510] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 18:57:44,590.590] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 18:57:45,187.187] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 18:57:46,846.846] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 18:57:59,993.993] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 18:58:03,318.318] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 18:58:11,865.865] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 18:58:14,992.992] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 18:58:19,703.703] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 6=6 <case:test_del_deleted_mail>
+[2021-03-16 18:58:19,709.709] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:00:21,431.431] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:00:41,461.461] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:00:41,542.542] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:00:42,164.164] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:00:43,908.908] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:00:57,022.22] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:01:00,351.351] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:01:08,907.907] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:01:12,058.58] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:01:16,485.485] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 6=6 <case:test_del_deleted_mail>
+[2021-03-16 19:01:16,489.489] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:06:24,824.824] login_test.py -> setup_class:14 [INFO] : Initialize
+[2021-03-16 19:06:43,878.878] login_test.py -> test_login:31 [INFO] : perform test_login case <case:test_login>
+[2021-03-16 19:06:43,879.879] login_business.py -> login_in:22 [INFO] : input username <case:test_login>
+[2021-03-16 19:06:43,958.958] login_business.py -> login_in:24 [INFO] : input password <case:test_login>
+[2021-03-16 19:06:44,551.551] login_business.py -> login_in:27 [INFO] : click login button <case:test_login>
+[2021-03-16 19:06:46,284.284] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-16 19:06:58,064.64] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-16 19:07:09,762.762] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->3 time <case:test_login>
+[2021-03-16 19:07:21,478.478] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->4 time <case:test_login>
+[2021-03-16 19:07:33,197.197] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->5 time <case:test_login>
+[2021-03-16 19:07:35,965.965] login_test.py -> teardown_class:26 [INFO] : End of test! TearDown!
+[2021-03-16 19:44:14,059.59] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:44:18,221.221] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:44:18,332.332] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:44:18,926.926] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:44:20,621.621] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:44:34,665.665] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:44:37,966.966] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:44:46,492.492] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:44:49,638.638] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:44:54,529.529] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 0=6 <case:test_del_deleted_mail>
+[2021-03-16 19:44:54,587.587] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:45:48,769.769] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:46:07,707.707] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:46:07,786.786] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:46:08,380.380] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:46:10,060.60] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:46:23,210.210] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:46:26,520.520] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:46:35,128.128] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:46:38,264.264] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:46:43,028.28] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 0=6 <case:test_del_deleted_mail>
+[2021-03-16 19:46:43,087.87] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:47:06,680.680] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:47:26,232.232] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:47:26,314.314] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:47:26,916.916] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:47:28,623.623] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:47:41,899.899] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:47:45,221.221] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:47:53,851.851] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:47:56,972.972] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:48:03,590.590] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 0=6 <case:test_del_deleted_mail>
+[2021-03-16 19:48:03,645.645] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:48:38,314.314] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:48:57,230.230] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:48:57,308.308] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:48:57,919.919] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:48:59,592.592] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:49:12,689.689] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:49:15,980.980] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:49:24,494.494] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:49:27,606.606] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:49:34,244.244] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 0=6 <case:test_del_deleted_mail>
+[2021-03-16 19:49:34,293.293] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
+[2021-03-16 19:50:14,103.103] del_all_deleted_mail.py -> setup_class:18 [INFO] : Initialize
+[2021-03-16 19:50:33,040.40] login_business.py -> login_in:22 [INFO] : input username <case:setup_class>
+[2021-03-16 19:50:33,124.124] login_business.py -> login_in:24 [INFO] : input password <case:setup_class>
+[2021-03-16 19:50:33,715.715] login_business.py -> login_in:27 [INFO] : click login button <case:setup_class>
+[2021-03-16 19:50:35,400.400] login_handler.py -> slide_verify_btn:30 [INFO] : start to login verify ---->1 time <case:setup_class>
+[2021-03-16 19:50:48,524.524] main_business.py -> qc_empyt_all_deleted_mail:50 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-16 19:50:51,831.831] main_business.py -> qc_empyt_all_deleted_mail:56 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-16 19:51:00,361.361] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-16 19:51:03,484.484] main_business.py -> qc_empyt_all_deleted_mail:72 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-16 19:51:07,865.865] del_all_deleted_mail.py -> test_del_deleted_mail:46 [INFO] : assert 6=6 <case:test_del_deleted_mail>
+[2021-03-16 19:51:07,869.869] del_all_deleted_mail.py -> teardown_class:34 [INFO] : End of test! TearDown!
