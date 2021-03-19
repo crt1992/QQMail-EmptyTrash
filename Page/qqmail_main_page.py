@@ -20,6 +20,10 @@ class main_page:
             self.fe.switch_to_frame(a)
             self.main_frame_flag = 1
 
+    def get_logout_btn_element(self):
+        self.switch_to_parent_frame()
+        return self.fe.find_element('log_out')
+
     def switch_to_parent_frame(self):
         self.fe.switch_to_parent_frame()
 

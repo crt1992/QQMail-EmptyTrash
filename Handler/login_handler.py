@@ -10,14 +10,21 @@ class loginHandler:
     def __init__(self, driver):
         self.driver = login(driver)
 
+    def clear_input_box(self,element):
+        element.clear()
+
     def send_username(self, username):
-        self.driver.get_username_element().send_keys(username)
+        ur_element = self.driver.get_username_element()
+        self.clear_input_box(ur_element)
+        ur_element.send_keys(username)
 
     def send_pwd(self, pwd):
         self.driver.get_pwd_element().send_keys(pwd)
 
     def click_login_btn(self):
         self.driver.get_login_btn_element().click()
+        self.driver.login_frame_flag = 0
+        self.driver.verify_frame_flag = 0
 
     def slide_verify_btn(self):
         count = 1

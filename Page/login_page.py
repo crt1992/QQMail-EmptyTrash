@@ -1,6 +1,8 @@
 from selenium import webdriver
 from tools.read_ini import read_ini
 from tools.find_elements import find_elements
+from util.singleton import singleton
+@singleton
 class login:
     login_frame_flag = 0
     verify_frame_flag = 0

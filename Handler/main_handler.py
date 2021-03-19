@@ -1,6 +1,8 @@
 from selenium import webdriver
 from Page.qqmail_main_page import main_page
 from Page.common_page import common_page
+from Page.logout_page import logout
+from Page.login_page import login
 from tools.read_ini import read_ini
 from time import sleep
 from tools.find_elements import find_elements
@@ -12,6 +14,8 @@ class mainHandler:
         self.pure_dirver = driver
         self.driver = main_page(driver)
         self.common = common_page(driver)
+        self.logout = logout(driver)
+        self.login = login(driver)
 
     #点击垃圾箱
     def click_trash(self):
@@ -36,6 +40,19 @@ class mainHandler:
         点击右侧iframe页面的删除按钮
         """
         self.common.get_qc_del_btn().click()
+
+    #点击退出登陆按钮
+    def click_logout_btn(self):
+        self.driver.get_logout_btn_element().click()
+
+    #点击重新登陆按钮
+    def click_relogin_btn(self):
+        self.logout.get_relogin_element().click()
+        try:
+            self.login.get_username_element()
+            return True
+        except:
+            return False
 
     #一个个选中所有邮件
     def choose_mail_onebyone(self):
