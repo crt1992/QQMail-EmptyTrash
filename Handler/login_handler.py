@@ -3,6 +3,7 @@ from Page.login_page import login
 from time import sleep
 from tools.find_elements import find_elements
 from util.log import log
+import traceback
 import sys
 
 class loginHandler:
@@ -22,8 +23,8 @@ class loginHandler:
         count = 1
         y = 170
         case_name = "{}case:{}{}".format('<', sys._getframe(2).f_code.co_name, '>')
-        try:
-            while True:
+        while True:
+            try:
                 log.logging(msg='start to login verify ---->%d time %s' %(count,case_name), level='INFO')
                 count += 1
                 sleep(2)
@@ -35,11 +36,13 @@ class loginHandler:
                 sleep(1)
                 action.release(on_element=slide_bar).perform()
                 sleep(6)
-                try:
-                    find_elements(self.driver.get_driver()).find_element('trash_bth')
-                    return True
-                except:
-                    y += 5
-        except:
-            #log.console_error(traceback.format_exc())
-            return False
+            except:
+                log.logging(msg=traceback.format_exc())
+                return False
+            try:
+                find_elements(self.driver.get_driver()).find_element('trash_bth')
+                return True
+            except:
+                if count >= 10:
+                    return False
+                y += 5

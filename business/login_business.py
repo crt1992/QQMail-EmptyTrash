@@ -31,7 +31,7 @@ class loginBusiness:
             screenshot().save_rt_screenshot(driver=self.driver, file_name='点击登陆进入滑动验证页面.png')
             result = log_in.slide_verify_btn()
             screenshot().save_rt_screenshot(driver=self.driver, file_name='登陆成功.png')
-            return True
+            return result
         except:
             log.logging(msg=traceback.format_exc(), level="ERROR")
             return result
