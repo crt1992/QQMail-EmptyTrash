@@ -3,6 +3,7 @@ import logging
 import logging.config
 import datetime
 import colorlog
+from util.singleton import singleton
 
 class log:
     _log_colors_config = {
@@ -59,5 +60,4 @@ class log:
         cls._remove_handler()
 
 if __name__ == '__main__':
-    a = log()
-    a.logging(msg='test', level='INFO')
+    log.logging(msg='test', level="INFO")

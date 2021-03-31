@@ -10,12 +10,15 @@ class mainBusiness:
         self.driver = driver
         self.main_op = mainHandler(self.driver)
 
+    def go_to_home(self):
+        self.main_op.go_to_home_page()
+
     def get_trash_num(self):
         trash_num = mainHandler(self.driver).get_trash_num()
         return trash_num
 
     def get_deleted_num(self):
-        deleted_num = mainHandler(self.driver).get_mail_count()
+        deleted_num = self.main_op.get_mail_count()
         return deleted_num
     
     def logout(self):

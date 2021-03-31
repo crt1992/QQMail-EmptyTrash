@@ -1,98 +1,13 @@
-[2021-03-19 13:36:59,143.143] login_test.py -> setup_class:26 [INFO] : Initialize
-[2021-03-19 13:37:21,608.608] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 13:37:21,609.609] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 13:37:21,732.732] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 13:37:22,415.415] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 13:37:24,263.263] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 13:37:36,044.44] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->2 time <case:test_login>
-[2021-03-19 13:37:47,753.753] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->3 time <case:test_login>
-[2021-03-19 13:37:59,481.481] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->4 time <case:test_login>
-[2021-03-19 13:38:11,187.187] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->5 time <case:test_login>
-[2021-03-19 13:38:13,202.202] login_handler.py -> slide_verify_btn:40 [INFO] : Traceback (most recent call last):
-  File "../Handler/login_handler.py", line 31, in slide_verify_btn
+[2021-03-31 15:15:24,895.895] conftest.py -> login:10 [INFO] : Initialize
+[2021-03-31 15:15:29,143.143] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 15:15:29,249.249] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 15:15:29,939.939] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 15:15:31,683.683] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 15:15:43,463.463] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:login>
+[2021-03-31 15:15:45,480.480] login_handler.py -> slide_verify_btn:47 [INFO] : Traceback (most recent call last):
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 38, in slide_verify_btn
     slide_bar = self.driver.get_verify_element()
-  File "../Page/login_page.py", line 36, in get_verify_element
-    return self.fe.find_element('login_verify_slideBar')
-  File "../tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='tcaptcha_drag_thumb']"}
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 13:38:13,874.874] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
-[2021-03-19 14:18:45,288.288] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:19:57,136.136] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:20:19,193.193] login_relogin_test.py -> test_login:39 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:20:19,193.193] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:20:19,275.275] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:20:19,945.945] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:20:21,636.636] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:20:33,421.421] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->2 time <case:test_login>
-[2021-03-19 14:20:45,129.129] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->3 time <case:test_login>
-[2021-03-19 14:20:47,136.136] login_handler.py -> slide_verify_btn:40 [INFO] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 31, in slide_verify_btn
-    slide_bar = self.driver.get_verify_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 36, in get_verify_element
-    return self.fe.find_element('login_verify_slideBar')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: chrome not reachable
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:20:47,140.140] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 33, in login_in
-    screenshot().save_rt_screenshot(driver=self.driver, file_name='登陆成功.png')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/util/save_screenshot.py", line 28, in save_rt_screenshot
-    driver.save_screenshot(file_path)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
-    return self.get_screenshot_as_file(filename)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
-    png = self.get_screenshot_as_png()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
-    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
-    return self.execute(Command.SCREENSHOT)['value']
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: chrome not reachable
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:20:47,195.195] login_relogin_test.py -> teardown_class:31 [INFO] : End of test! TearDown!
-[2021-03-19 14:20:55,383.383] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:21:17,890.890] login_relogin_test.py -> test_login:39 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:21:17,890.890] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:21:17,970.970] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:21:18,652.652] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:21:20,506.506] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:21:55,857.857] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:21:55,945.945] login_business.py -> login_in:25 [INFO] : input password <case:test_login1>
-[2021-03-19 14:21:56,585.585] login_business.py -> login_in:28 [INFO] : click login button <case:test_login1>
-[2021-03-19 14:21:58,323.323] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->1 time <case:test_login1>
-[2021-03-19 14:22:10,075.75] login_handler.py -> slide_verify_btn:28 [INFO] : start to login verify ---->2 time <case:test_login1>
-[2021-03-19 14:22:12,090.90] login_handler.py -> slide_verify_btn:40 [INFO] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 31, in slide_verify_btn
-    slide_bar = self.driver.get_verify_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 36, in get_verify_element
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 38, in get_verify_element
     return self.fe.find_element('login_verify_slideBar')
   File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
     return self.driver.find_element_by_xpath(data[1])
@@ -108,39 +23,181 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
   (Session info: chrome=89.0.4389.90)
 
 
-[2021-03-19 14:22:12,714.714] login_relogin_test.py -> teardown_class:31 [INFO] : End of test! TearDown!
-[2021-03-19 14:28:46,914.914] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:29:08,662.662] login_relogin_test.py -> test_login:39 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:29:08,663.663] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:29:08,763.763] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:29:09,399.399] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:29:11,148.148] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:29:22,911.911] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->2 time <case:test_login>
-[2021-03-19 14:29:34,618.618] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->3 time <case:test_login>
-[2021-03-19 14:30:07,400.400] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:30:07,505.505] login_business.py -> login_in:25 [INFO] : input password <case:test_login1>
-[2021-03-19 14:30:08,142.142] login_business.py -> login_in:28 [INFO] : click login button <case:test_login1>
-[2021-03-19 14:30:09,820.820] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->1 time <case:test_login1>
-[2021-03-19 14:30:22,959.959] login_relogin_test.py -> teardown_class:31 [INFO] : End of test! TearDown!
-[2021-03-19 14:41:31,609.609] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:41:53,659.659] login_relogin_test.py -> test_login:40 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:41:53,660.660] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:41:53,769.769] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:41:54,446.446] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:41:56,163.163] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:42:10,299.299] login_relogin_test.py -> test_logout:49 [INFO] : perform test_logout case <case:test_logout>
-[2021-03-19 14:42:10,300.300] main_business.py -> logout:22 [INFO] : click logout button
-[2021-03-19 14:42:12,893.893] main_business.py -> logout:25 [INFO] : click relogin button
-[2021-03-19 14:42:29,174.174] login_relogin_test.py -> test_login1:56 [INFO] : perform test_login case again <case:test_login>
-[2021-03-19 14:42:29,174.174] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:42:29,181.181] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
+[2021-03-31 15:16:06,229.229] conftest.py -> login:10 [INFO] : Initialize
+[2021-03-31 15:16:25,168.168] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 15:16:25,260.260] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 15:16:25,922.922] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 15:16:27,631.631] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 15:16:39,427.427] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:login>
+[2021-03-31 15:16:51,157.157] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->3 time <case:login>
+[2021-03-31 15:17:02,881.881] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->4 time <case:login>
+[2021-03-31 15:17:14,592.592] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->5 time <case:login>
+[2021-03-31 15:34:40,662.662] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 15:35:00,174.174] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 15:35:00,269.269] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 15:35:00,945.945] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 15:35:02,709.709] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 15:35:14,446.446] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:login>
+[2021-03-31 15:35:27,666.666] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 15:46:16,346.346] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 15:46:35,440.440] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 15:46:35,542.542] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 15:46:36,209.209] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 15:46:37,937.937] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 15:46:51,082.82] main_business.py -> qc_empyt_all_deleted_mail:57 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 15:46:54,485.485] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 15:47:03,095.95] main_business.py -> qc_empyt_all_deleted_mail:70 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 15:47:06,259.259] main_business.py -> qc_empyt_all_deleted_mail:79 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 15:47:10,738.738] del_all_deleted_mail.py -> test_del_deleted_mail:48 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 15:47:10,743.743] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:00:55,478.478] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:01:14,603.603] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:01:14,693.693] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:01:15,334.334] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:01:17,025.25] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:01:30,159.159] main_business.py -> qc_empyt_all_deleted_mail:57 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:01:33,506.506] main_business.py -> qc_empyt_all_deleted_mail:63 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:01:42,070.70] main_business.py -> qc_empyt_all_deleted_mail:70 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:01:45,220.220] main_business.py -> qc_empyt_all_deleted_mail:79 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:01:49,683.683] del_all_deleted_mail.py -> test_del_deleted_mail:47 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 16:01:49,687.687] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:09:02,026.26] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:09:21,074.74] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:09:21,176.176] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:09:21,800.800] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:09:23,514.514] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:09:35,293.293] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:login>
+[2021-03-31 16:09:48,414.414] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:09:51,784.784] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:10:00,699.699] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:10:04,056.56] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:10:08,834.834] del_all_deleted_mail.py -> test_del_deleted_mail:47 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 16:10:08,887.887] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:14:53,057.57] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:15:12,099.99] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:15:12,204.204] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:15:12,842.842] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:15:14,568.568] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:15:27,725.725] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:15:31,082.82] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:15:39,676.676] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:15:42,840.840] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:15:47,312.312] del_all_deleted_mail.py -> test_del_deleted_mail:47 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 16:15:47,353.353] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:21:15,371.371] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:21:34,324.324] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:21:34,415.415] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:21:35,078.78] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:21:36,805.805] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:21:49,925.925] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:21:53,284.284] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:22:01,848.848] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:22:05,007.7] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:22:09,487.487] del_all_deleted_mail.py -> test_del_deleted_mail:47 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 16:22:09,564.564] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:24:36,536.536] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:24:55,940.940] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:24:56,040.40] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:24:56,721.721] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:24:59,047.47] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:25:35,790.790] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:login>
+[2021-03-31 16:25:52,186.186] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->3 time <case:login>
+[2021-03-31 16:26:05,297.297] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:26:08,654.654] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:26:17,287.287] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:26:20,440.440] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:26:24,900.900] del_all_deleted_mail.py -> test_del_deleted_mail:47 [INFO] : assert 6=6test_del_deleted_mail
+[2021-03-31 16:26:37,519.519] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:33:47,838.838] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 16:34:06,957.957] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 16:34:07,049.49] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 16:34:07,685.685] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 16:34:09,407.407] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 16:34:22,793.793] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 16:34:26,136.136] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 16:34:34,730.730] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 16:34:37,893.893] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 16:34:42,408.408] del_all_deleted_mail.py -> test_del_deleted_mail:22 [INFO] : assert 0=6
+[2021-03-31 16:34:42,528.528] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 16:40:37,317.317] log.py -> <module>:63 [INFO] : test
+[2021-03-31 16:44:23,318.318] log.py -> <module>:67 [INFO] : test
+[2021-03-31 16:44:39,202.202] log.py -> <module>:67 [INFO] : test
+[2021-03-31 16:44:39,203.203] log.py -> <module>:67 [INFO] : abc123
+[2021-03-31 16:44:39,203.203] log.py -> <module>:68 [INFO] : abc123
+[2021-03-31 16:45:03,365.365] log.py -> <module>:67 [INFO] : test
+[2021-03-31 16:45:03,366.366] log.py -> <module>:68 [INFO] : abc123
+[2021-03-31 16:50:23,473.473] log.py -> <module>:67 [INFO] : test
+[2021-03-31 16:50:23,474.474] log.py -> <module>:68 [INFO] : abc123
+[2021-03-31 16:50:39,070.70] log.py -> <module>:67 [INFO] : test
+[2021-03-31 16:50:39,070.70] log.py -> <module>:68 [INFO] : abc123
+[2021-03-31 16:50:39,071.71] log.py -> <module>:69 [INFO] : 123
+[2021-03-31 16:50:39,071.71] log.py -> <module>:70 [INFO] : qwer
+[2021-03-31 17:06:05,691.691]  ->  [INFO] : test
+[2021-03-31 17:06:12,302.302]  ->  [INFO] : test
+[2021-03-31 17:06:12,302.302]  ->  [INFO] : abc123
+[2021-03-31 17:06:12,302.302]  ->  [INFO] : 123
+[2021-03-31 17:06:12,302.302]  ->  [INFO] : qwer
+[2021-03-31 17:06:58,022.22]  ->  [INFO] : test
+[2021-03-31 17:06:58,022.22]  ->  [INFO] : abc123
+[2021-03-31 17:06:58,023.23]  ->  [INFO] : 123
+[2021-03-31 17:06:58,023.23]  ->  [INFO] : qwer
+[2021-03-31 17:07:32,696.696] 1 -> 1 [INFO] : test
+[2021-03-31 17:07:32,696.696] 1 -> 1 [INFO] : abc123
+[2021-03-31 17:07:32,696.696] 1 -> 1 [INFO] : 123
+[2021-03-31 17:07:32,696.696] 1 -> 1 [INFO] : qwer
+[2021-03-31 17:08:12,238.238] 1 -> 1 [INFO] : test
+[2021-03-31 17:08:12,238.238] 1 -> 1 [INFO] : abc123
+[2021-03-31 17:08:12,238.238] 1 -> 1 [INFO] : 123
+[2021-03-31 17:08:12,238.238] 1 -> 1 [INFO] : qwer
+[2021-03-31 17:29:30,857.857] log.py -> <module>:67 [INFO] : test
+[2021-03-31 17:29:30,858.858] log.py -> <module>:68 [INFO] : abc123
+[2021-03-31 17:29:30,858.858] log.py -> <module>:69 [INFO] : 123
+[2021-03-31 17:29:30,859.859] log.py -> <module>:70 [INFO] : qwer
+[2021-03-31 17:30:32,176.176] log.py -> <module>:65 [INFO] : test
+[2021-03-31 17:30:33,682.682] log.py -> <module>:65 [INFO] : test
+[2021-03-31 17:30:49,276.276] log.py -> <module>:65 [INFO] : test
+[2021-03-31 17:30:49,277.277] log.py -> <module>:66 [ERROR] : test2
+[2021-03-31 17:33:23,684.684] log.py -> <module>:65 [INFO] : test
+[2021-03-31 17:33:23,685.685] log.py -> <module>:66 [ERROR] : test2
+[2021-03-31 17:34:21,627.627] log.py -> <module>:63 [INFO] : test
+[2021-03-31 17:34:51,944.944] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 17:35:11,181.181] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 17:35:11,290.290] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 17:35:11,977.977] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 17:35:13,737.737] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 17:35:27,333.333] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 17:35:30,955.955] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 17:35:39,753.753] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 17:35:42,916.916] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 17:35:47,703.703] del_all_deleted_mail.py -> test_del_deleted_mail:22 [INFO] : assert 6=6
+[2021-03-31 17:36:00,287.287] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 17:36:15,183.183] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 17:36:34,719.719] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 17:36:34,812.812] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 17:36:35,483.483] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 17:36:37,216.216] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 17:36:50,399.399] main_business.py -> qc_empyt_all_deleted_mail:60 [INFO] : click deleted button <case:test_del_deleted_mail>
+[2021-03-31 17:36:53,760.760] main_business.py -> qc_empyt_all_deleted_mail:66 [INFO] : choose mail one by one <case:test_del_deleted_mail>
+[2021-03-31 17:37:02,333.333] main_business.py -> qc_empyt_all_deleted_mail:73 [INFO] : click quick delete button <case:test_del_deleted_mail>
+[2021-03-31 17:37:05,492.492] main_business.py -> qc_empyt_all_deleted_mail:82 [INFO] : click cancel button <case:test_del_deleted_mail>
+[2021-03-31 17:37:09,988.988] del_all_deleted_mail.py -> test_del_deleted_mail:22 [INFO] : assert 6=6
+[2021-03-31 17:37:22,629.629] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 17:50:37,199.199] conftest.py -> login:11 [INFO] : Initialize
+[2021-03-31 17:50:56,295.295] login_business.py -> login_in:23 [INFO] : input username <case:login>
+[2021-03-31 17:50:56,392.392] login_business.py -> login_in:25 [INFO] : input password <case:login>
+[2021-03-31 17:50:57,056.56] login_business.py -> login_in:28 [INFO] : click login button <case:login>
+[2021-03-31 17:50:58,799.799] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:login>
+[2021-03-31 17:51:11,984.984] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-31 17:51:31,338.338] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-31 17:51:31,339.339] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-31 17:51:31,352.352] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
   File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
     log_in.send_username(self._username)
   File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 17, in send_username
     ur_element = self.driver.get_username_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 23, in get_username_element
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 25, in get_username_element
     self.__switch_to_login_frame__()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 12, in __switch_to_login_frame__
+  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 14, in __switch_to_login_frame__
     a = self.fe.find_element('login_frame')
   File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
     return self.driver.find_element_by_xpath(data[1])
@@ -156,140 +213,13 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
   (Session info: chrome=89.0.4389.90)
 
 
-[2021-03-19 14:42:29,265.265] login_relogin_test.py -> teardown_class:32 [INFO] : End of test! TearDown!
-[2021-03-19 14:46:44,120.120] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:47:06,139.139] login_relogin_test.py -> test_login:40 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:47:06,139.139] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:47:06,241.241] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:47:06,903.903] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:47:08,587.587] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:47:20,369.369] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->2 time <case:test_login>
-[2021-03-19 14:47:35,258.258] login_relogin_test.py -> test_logout:49 [INFO] : perform test_logout case <case:test_logout>
-[2021-03-19 14:47:35,258.258] main_business.py -> logout:22 [INFO] : click logout button
-[2021-03-19 14:47:37,514.514] main_business.py -> logout:25 [INFO] : click relogin button
-[2021-03-19 14:47:53,814.814] login_relogin_test.py -> test_login1:56 [INFO] : perform test_login case again <case:test_login>
-[2021-03-19 14:47:55,815.815] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:47:55,825.825] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
-    log_in.send_username(self._username)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 17, in send_username
-    ur_element = self.driver.get_username_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 23, in get_username_element
-    self.__switch_to_login_frame__()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 12, in __switch_to_login_frame__
-    a = self.fe.find_element('login_frame')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='login_frame']"}
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:47:55,910.910] login_relogin_test.py -> teardown_class:32 [INFO] : End of test! TearDown!
-[2021-03-19 14:52:58,684.684] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:53:20,754.754] login_relogin_test.py -> test_login:40 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:53:20,754.754] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:53:20,763.763] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
-    log_in.send_username(self._username)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 17, in send_username
-    ur_element = self.driver.get_username_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 24, in get_username_element
-    return self.fe.find_element('login_name')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='u']"}
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:53:20,835.835] login_relogin_test.py -> test_logout:49 [INFO] : perform test_logout case <case:test_logout>
-[2021-03-19 14:53:20,836.836] main_business.py -> logout:22 [INFO] : click logout button
-[2021-03-19 14:53:20,884.884] login_relogin_test.py -> test_login1:56 [INFO] : perform test_login case again <case:test_login>
-[2021-03-19 14:53:22,889.889] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:53:22,897.897] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
-    log_in.send_username(self._username)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 17, in send_username
-    ur_element = self.driver.get_username_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 24, in get_username_element
-    return self.fe.find_element('login_name')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='u']"}
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:53:22,938.938] login_relogin_test.py -> teardown_class:32 [INFO] : End of test! TearDown!
-[2021-03-19 14:56:03,294.294] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 14:56:24,977.977] login_relogin_test.py -> test_login:40 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 14:56:24,977.977] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 14:56:25,077.77] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 14:56:25,736.736] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 14:56:27,452.452] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 14:56:54,966.966] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->2 time <case:test_login>
-[2021-03-19 14:57:21,767.767] login_handler.py -> slide_verify_btn:33 [INFO] : start to login verify ---->3 time <case:test_login>
-[2021-03-19 14:57:38,930.930] login_relogin_test.py -> test_logout:49 [INFO] : perform test_logout case <case:test_logout>
-[2021-03-19 14:57:38,930.930] main_business.py -> logout:22 [INFO] : click logout button
-[2021-03-19 14:57:43,142.142] main_business.py -> logout:25 [INFO] : click relogin button
-[2021-03-19 14:57:59,436.436] login_relogin_test.py -> test_login1:56 [INFO] : perform test_login case again <case:test_login>
-[2021-03-19 14:58:01,439.439] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 14:58:01,449.449] login_business.py -> login_in:36 [ERROR] : Traceback (most recent call last):
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/business/login_business.py", line 24, in login_in
-    log_in.send_username(self._username)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Handler/login_handler.py", line 17, in send_username
-    ur_element = self.driver.get_username_element()
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/Page/login_page.py", line 26, in get_username_element
-    return self.fe.find_element('login_name')
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/tools/find_elements.py", line 14, in find_element
-    return self.driver.find_element_by_xpath(data[1])
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-    return self.execute(Command.FIND_ELEMENT, {
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/Users/chenrongtao/PycharmProjects/QQMail-EmptyTrash/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='u']"}
-  (Session info: chrome=89.0.4389.90)
-
-
-[2021-03-19 14:58:01,490.490] login_relogin_test.py -> teardown_class:32 [INFO] : End of test! TearDown!
-[2021-03-19 15:05:36,869.869] login_relogin_test.py -> setup_class:16 [INFO] : Initialize
-[2021-03-19 15:05:58,883.883] login_relogin_test.py -> test_login:40 [INFO] : perform test_login case <case:test_login>
-[2021-03-19 15:05:58,883.883] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
-[2021-03-19 15:05:58,980.980] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
-[2021-03-19 15:05:59,643.643] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
-[2021-03-19 15:06:01,316.316] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:test_login>
-[2021-03-19 15:06:17,077.77] login_relogin_test.py -> test_logout:49 [INFO] : perform test_logout case <case:test_logout>
-[2021-03-19 15:06:17,078.78] main_business.py -> logout:22 [INFO] : click logout button
-[2021-03-19 15:06:20,922.922] main_business.py -> logout:25 [INFO] : click relogin button
-[2021-03-19 15:06:37,213.213] login_relogin_test.py -> test_login1:56 [INFO] : perform test_login case again <case:test_login>
-[2021-03-19 15:06:39,216.216] login_business.py -> login_in:23 [INFO] : input username <case:test_login1>
-[2021-03-19 15:06:39,336.336] login_business.py -> login_in:25 [INFO] : input password <case:test_login1>
-[2021-03-19 15:06:39,997.997] login_business.py -> login_in:28 [INFO] : click login button <case:test_login1>
-[2021-03-19 15:06:41,754.754] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:test_login1>
-[2021-03-19 15:06:54,879.879] login_relogin_test.py -> teardown_class:32 [INFO] : End of test! TearDown!
+[2021-03-31 17:51:31,434.434] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!
+[2021-03-31 17:51:34,559.559] conftest.py -> login:20 [INFO] : End of test! TearDown!
+[2021-03-31 17:54:15,110.110] login_test.py -> setup_class:26 [INFO] : Initialize
+[2021-03-31 17:54:33,998.998] login_test.py -> test_login:46 [INFO] : perform test_login case <case:test_login>
+[2021-03-31 17:54:33,998.998] login_business.py -> login_in:23 [INFO] : input username <case:test_login>
+[2021-03-31 17:54:34,103.103] login_business.py -> login_in:25 [INFO] : input password <case:test_login>
+[2021-03-31 17:54:34,752.752] login_business.py -> login_in:28 [INFO] : click login button <case:test_login>
+[2021-03-31 17:54:36,463.463] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->1 time <case:test_login>
+[2021-03-31 17:54:48,245.245] login_handler.py -> slide_verify_btn:35 [INFO] : start to login verify ---->2 time <case:test_login>
+[2021-03-31 17:55:01,349.349] login_test.py -> teardown_class:39 [INFO] : End of test! TearDown!

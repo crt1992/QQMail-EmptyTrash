@@ -50,6 +50,7 @@ class Testlogin:
         assert login_result
 
 if __name__ == '__main__':
-    pytest.main(['login_test.py', '-v', '-x', "--alluredir=/Users/chenrongtao/.jenkins/workspace/QQmail-UI-Test/allure-results","--clean-alluredir"])
+    #pytest.main(['login_test.py', '-v', '-x', "--alluredir=/Users/chenrongtao/.jenkins/workspace/QQmail-UI-Test/allure-results","--clean-alluredir"])
+    pytest.main(['login_test.py', '-v', '-s', "--alluredir=/Users/chenrongtao/PycharmProjects/port", "--clean-alluredir"])
 
 
