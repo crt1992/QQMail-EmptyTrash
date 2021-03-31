@@ -1,14 +1,3 @@
-import sys, os
-sys.path.append(os.pardir)
-"""
-terminal运行时将当前系统的工作目录加入到python运行环境的path中
-所以terminal运行脚本时需要进入TestCase文件夹下运行脚本，否则仍然会出现import model导报错误
-os.pardir指当前目录的父目录
-因为在～项目完整的工作目录是～/PycharmProjects/QQMail—EmptyTrash/TestCase
-terminal进入～/TestCase目录下执行脚本，os.pardir就是～/PycharmProjects/QQMail—EmptyTrash
-导包就是从～/PycharmProjects/QQMail—EmptyTrash去寻找
-目录错误就会找不到导入的包，然后报错
-"""
 import allure
 import pytest
 from business.login_business import loginBusiness
